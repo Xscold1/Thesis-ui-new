@@ -1,0 +1,79 @@
+@import '../../../styles/1-helpers/variables';
+@import '../../../styles/1-helpers/functions';
+
+.doctor-finder__header__div {
+    padding-top: 7rem;
+    // background-color: #D1EEEE;
+    height: 355px;
+
+    background: url(../../../styles/images/DoctorBG.jpg) no-repeat;
+    // background: url(../../../styles/images/FilteredDoctorsBG.png) no-repeat;
+    // background: url(../../../styles/images/FilteredDoctorsBG.png) no-repeat;
+    background-size: 100% 140%;
+    // background: rgba(160, 185, 235, 0.56) url(../../../styles/images/background.png) no-repeat;
+    // background-size: 100% 200%;
+}
+
+.filter__doctor__dropdown {
+    position: relative;
+    margin-top: 2rem;
+    box-sizing: border-box;
+    // width: 17.7rem;
+    width: 15.9rem;
+    height: 4rem;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+
+    // margin-bottom: 1rem;
+
+    border: 2px solid $color2;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.filter__doctor__dropdown::-webkit-scrollbar{
+    width: .30rem;
+    background-color: none;
+    border-radius: .5rem;
+}
+
+.filter__doctor__dropdown::-webkit-scrollbar-thumb{
+    background-color: $color4;
+    border-radius: .5rem;
+}
+
+.filter__doctor__dropdown::-webkit-scrollbar-thumb:hover{
+    background-color: none;
+}
+
+.labels__div {
+    max-width: 13rem;
+}
+
+.affiliate__button {
+    position: absolute;
+    left: 0.5rem;
+    margin-top: 1.3rem;
+
+    cursor: pointer;
+    color: $color4;
+    text-decoration: none;
+    font-size: 8px;
+    font-weight: 700;
+    padding: 7px;
+
+    border: 1px solid $color4;
+    border-radius: 25px;
+}
+
+.affiliate__button:hover {
+    color: $color1;
+    background-color: $color4;
+}
+
+.center__grid {
+    width: 100%;
+    display: grid;
+    text-align: center;
+    align-items: center;
+}

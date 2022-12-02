@@ -1,0 +1,125 @@
+.about {
+  position: relative;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  max-width: 800px;
+  min-height: 850px;
+  @include mini-laptop {
+    margin-top: 3em;
+  }
+
+  img {
+    width: 50%;
+    margin: 3em auto 0em auto;
+    z-index: 0;
+    border-radius: 5px;
+    @include tablet {
+      width: 100%;
+    }
+  }
+  #mongodb-logo {
+    padding: 0.2em 0.5em;
+    width: 15%;
+    border-radius: 5px;
+  }
+  .about__heading {
+    font-size: 2.3em;
+    margin: 1em auto 0em auto;
+    color: white;
+    @include tablet {
+      font-size: 1.8em;
+    }
+    @include mobile {
+      font-size: 1.2em;
+      margin: 0.5em auto;
+    }
+    @media (max-width: 250px) {
+      font-size: 0.8em;
+    }
+  }
+  .about__heading--name {
+    font-size: 2.5em;
+    margin-top: 0;
+    @include laptop {
+      font-size: 2em;
+    }
+    @include mini-laptop {
+      font-size: 2em;
+    }
+    @include tablet {
+      font-size: 1.4em;
+    }
+    @include mobile {
+      font-size: 0.9em;
+      margin: 0.5em auto;
+    }
+    @media (max-width: 250px) {
+      font-size: 0.8em;
+    }
+  }
+  .about__skills {
+    img {
+      width: 35px;
+      margin: 1em;
+      border: none;
+      border-radius: 0;
+      filter: saturate(310%);
+      @include tablet {
+        width: 30px;
+      }
+
+      @include mobile {
+        width: 25px;
+      }
+      @media (max-width: 250px) {
+        width: 20px;
+      }
+    }
+    img:nth-child(5) {
+      filter: saturate(130%);
+    }
+  }
+
+  .about__text {
+    font-weight: lighter;
+    letter-spacing: 0.1em;
+    word-spacing: 0.4em;
+    font-size: 0.8em;
+    color: white;
+    @include tablet {
+      font-size: 0.8em;
+    }
+
+    @include mobile {
+      font-size: 0.6em;
+    }
+    @media (max-width: 250px) {
+      font-size: 0.5em;
+    }
+  }
+
+  .about__quote {
+    font-size: 1em;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 4em;
+    @include mobile {
+      font-size: 0.8em;
+    }
+  }
+  .about__suggestion {
+    margin: 2em auto;
+    font-size: 2em;
+    color: white;
+    a {
+      text-decoration: none;
+      color: $color3;
+      &:hover {
+        color: $color4;
+      }
+    }
+  }
+}

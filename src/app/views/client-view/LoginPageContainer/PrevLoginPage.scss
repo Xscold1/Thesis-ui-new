@@ -1,0 +1,100 @@
+@import '../../../styles/1-helpers/variables';
+
+.login__title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.login__error {
+    font-weight: 600;
+}
+
+.create__account {
+    color: $color8;
+}
+
+.italic {
+    font-weight: 300;
+    font-style: italic;
+}
+
+// How do I import global color variable in here?
+
+
+// quila__inserted__styles
+
+.social-media-icon {
+    height: 47px;
+    margin-right: 13px;
+}
+
+
+.description {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: $color5;
+
+}
+
+.main-header {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    color: $color5;
+}
+
+.separation-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 5px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+
+input[type=text] {
+    background: #C3F3F8;
+    border-radius: 20px;
+    // width: 826px;
+    height: 52px;
+    color: $color1;
+    outline-style: none;
+    border-color: #C3F3F8;
+}
+
+.loginbtn {
+    background-color: $color4;
+
+    border: none;
+    color: $color1;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 700;
+    border-radius: 25px;
+
+    width: 213px;
+    height: 44px;
+}
+
+
+::placeholder {
+    color: rgb(0, 0, 0) !important;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    margin-top:7px;
+}

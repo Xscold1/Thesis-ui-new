@@ -1,0 +1,57 @@
+@import '../../../styles/1-helpers/variables';
+@import '../../../styles/1-helpers/functions';
+
+.admin__disease__content {
+    position: relative;
+    margin-left: 20rem;
+    // height: 57rem;
+    height: 67rem;
+    // max-height: 80vh;
+    width: 77%;
+    // border: 2px solid black;
+
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}
+
+.formfield * {
+    vertical-align: middle;
+}
+
+.admin__disease__field {
+    border-radius: 10px !important;
+}
+
+.admin__textarea__field {
+    resize: none;
+    padding-top: .9rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    height: 140px;
+    width: 700px;
+    background: #c8f4fc;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+}
+
+.admin__textarea__field::placeholder {
+    font-weight: 500 !important;
+    color: rgba(0, 0, 0, 0.35) !important;
+}
+
+.admin__textarea__field::-webkit-scrollbar{
+    width: .7rem;
+    background-color: none;
+    border-radius: .5rem;
+}
+
+.admin__textarea__field::-webkit-scrollbar-thumb{
+    background-color: $color2;
+    border-radius: .5rem;
+}
+
+.admin__textarea__field::-webkit-scrollbar-thumb:hover{
+    background-color: $color3;
+}

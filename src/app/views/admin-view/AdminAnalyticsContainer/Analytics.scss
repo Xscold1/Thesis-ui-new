@@ -1,0 +1,684 @@
+@import '../../../styles/1-helpers/variables';
+@import '../../../styles/1-helpers/functions';
+
+
+// Start of Machine Learning Page
+.admin__chartbox__content {
+    position: relative;
+    margin-left: 20rem;
+    height: 45.3rem;
+    // max-height: 80vh;
+    margin-top: -1.45rem;
+    width: 77%;
+    // border: 2px solid black;
+    margin-bottom: -.7rem !important;
+
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}
+
+.admin__chartrow__content {
+    position: relative;
+    margin-left: 20rem;
+    margin-top: -1.45rem;
+    height: 24rem;
+    // max-height: 80vh;
+    width: 77%;
+    // border: 2px solid black;
+    margin-bottom: -.7rem !important;
+
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}
+
+.admin__extended-row__content {
+    position: relative;
+    margin-left: 20rem;
+    height: 31.4rem;
+    // max-height: 80vh;
+    width: 77%;
+    // border: 2px solid black;
+    margin-bottom: -.7rem !important;
+
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+
+    margin-top: -1.45rem;
+}
+
+
+.chart__center__div {
+    display: grid;
+    justify-content: center;
+}
+
+.charts__row__div {
+    display: flex;
+    // margin-left: 3rem;
+    // justify-items: center;
+}
+
+.admin__chart__content {
+    position: relative;
+    display: grid;
+    justify-items: center;
+    margin-right: 2rem;
+    margin-top: 1.4rem;
+    
+    height: 17rem;
+    // max-height: 80vh;
+    width: 22rem;
+    // border: 2px solid black;
+    padding: 30px;
+
+    margin-left: '4rem';
+    padding-top: '1rem';
+
+    background: #e2eef3;
+    // border: 1px solid #DFE0EB;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.admin__progress-circle {
+    width: 150px;
+}
+
+.admin__large-chart__content {
+    position: relative;
+    display: grid;
+    justify-items: center;
+    margin-right: 2rem;
+    margin-top: 1.4rem;
+    
+    height: 20rem;
+    // max-height: 80vh;
+    width: 20rem;
+    // border: 2px solid black;
+    padding: 30px;
+
+    margin-left: '4rem';
+    padding-top: '1rem';
+
+    background: #e2eef3;
+    // border: 1px solid #DFE0EB;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.chart__form__header {
+    font-weight: 600;
+    font-size: 23px;
+    margin-top: 3.7rem;
+    margin-left: 2rem;
+}
+
+.chart__form__header2 {
+    font-weight: 600;
+    font-size: 23px;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}
+
+.chart__form__subheader {
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 1.3rem;
+    margin-left: 2.7rem;
+
+    line-height: 0;
+
+    span {
+        font-weight: 700;
+    }
+}
+
+.category__header {
+    font-weight: 700;
+    position: absolute;
+    top: -2rem;
+}
+
+.progress__name {
+    // padding-top: .5rem;
+    padding-bottom: .7rem;
+    // padding-left: 1.5rem;
+
+    span {
+        font-weight: 700;
+    }
+}
+
+.progress__name2 {
+    margin-bottom: -1rem;
+
+    span {
+        font-weight: 700 !important;
+    }
+}
+
+// End of Machine Learning Page
+
+// Start of Demographics Page
+.admin__demographics__div {
+    // height: 27rem;
+    height: 57.2vh;
+    width: 77%;
+    position: relative;
+    margin-left: 20rem;
+
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}
+
+.demographic__header {
+    position: absolute;
+    top: -2.5rem;
+    font-weight: 600;
+    font-size: 19px;
+    margin-top: 3.7rem;
+    margin-left: 2rem;
+}
+
+.demographic__contents {
+    margin-top: 2.4rem;
+}
+
+.bar-chart__div {
+    // width: 49rem;
+    // height: 27rem;
+    width: 50vw;
+    height: 57.2vh;
+
+    float: left;
+    margin-left: 3rem;
+    padding-top: 3rem;
+    padding-right: 3.5rem;
+    
+    border-right: .12rem solid #DFE0EB;
+}
+
+.most__respondents__div {
+    // height: 13.47rem;
+    height: 28.59vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-bottom: .12rem solid #DFE0EB;
+
+    p {
+        font-weight: 600;
+        font-size: 16px;
+        color: #9FA2B4;
+        
+        center {
+            color: #252733;
+            font-weight: 700;
+            font-size: 24px;
+        }
+    }
+}
+
+.num-users__div {
+    // height: 13.47rem;
+    height: 28.59vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        font-weight: 600;
+        font-size: 16px;
+        color: #9FA2B4;
+
+        center {
+            color: #252733;
+            font-weight: 700;
+            font-size: 24px;
+        }
+    }
+}
+
+.demographic__age__div {
+    float: left;
+    // border: 1px solid black;
+    height: 57.2vh;
+    width: 55%;
+
+    display: grid;
+    justify-content: center;
+    // border: 1px solid black;
+
+    padding-left: 2rem;
+}
+
+.demographic__gender__div {
+    float: right;
+    // border: 1px solid black;
+    height: 57.2vh;
+    width: 45%;
+
+    display: grid;
+    justify-content: center;
+    // border: 1px solid black;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+.demographic__age-gender__header {
+    font-weight: 600;
+    font-size: 19px;
+    margin-top: 2rem;
+
+    // border: 1px solid black;
+}
+
+// End of demographics page
+
+// Start of Common Symptoms page
+.symptom__chart-group__div {
+    // height: 27rem;
+    height: 60vh;
+    width: 77%;
+    position: relative;
+    margin-left: 20rem;
+
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}
+
+.analytics__filter__div {
+    // height: 27rem;
+    height: 9rem;
+    width: 77%;
+    position: relative;
+    margin-left: 20rem;
+    // margin-top: 5rem;
+
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}
+
+.num-respondents__div {
+    // height: 13.47rem;
+    height: 19.9vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-bottom: .12rem solid #DFE0EB;
+
+    p {
+        padding-top: 1.4rem;
+        font-weight: 600;
+        font-size: 16px;
+        color: #9FA2B4;
+        
+        center {
+            color: #252733;
+            font-weight: 700;
+            font-size: 24px;
+        }
+    }
+}
+
+.most__symptoms__div {
+    // height: 13.47rem;
+    height: 19.9vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-bottom: .12rem solid #DFE0EB;
+
+    p {
+        font-weight: 600;
+        font-size: 16px;
+        color: #9FA2B4;
+        
+        center {
+            color: #252733;
+            font-weight: 700;
+            font-size: 24px;
+        }
+    }
+}
+
+.num-symptoms__div {
+    // height: 13.47rem;
+    height: 19.9vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        font-weight: 600;
+        font-size: 16px;
+        color: #9FA2B4;
+
+        center {
+            color: #252733;
+            font-weight: 700;
+            font-size: 24px;
+        }
+    }
+}
+
+.symptoms__bar-chart__div {
+    // width: 49rem;
+    // height: 27rem;
+    width: 51vw;
+    height: 59.7vh;
+
+    float: left;
+    margin-left: 3rem;
+    padding-top: 1rem;
+    padding-right: 3rem;
+    
+    border-right: .12rem solid #DFE0EB;
+}
+
+.filter__group {
+    display: flex;
+}
+
+.filter__group1 {
+    z-index: 10;
+    margin-top: -1rem;
+    display: flex;
+}
+
+.filter__barangay__div {
+    position: absolute;
+    // left: 2.5vw;
+    left: 2rem;
+}
+
+.filter__barangay__text {
+    float: left;
+    margin-top: 5.9rem;
+    // margin-left: 2.5vw;
+    // margin-left: 2.5rem;
+}
+
+.filter__address__dropdown {
+    position: relative;
+    margin-top: 5.2rem;
+    // margin-left: 13vw;
+    // margin-left: 1rem;
+    margin-right: .5rem;
+    box-sizing: border-box;
+    // width: 17.7rem;
+    width: 8rem;
+    height: 3rem;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    appearance: none;
+
+    // margin-bottom: 1rem;
+
+    border: 2px solid $color2;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.filter__barangay__dropdown {
+    position: relative;
+    margin-top: 5.2rem;
+    z-index: 99;
+    // margin-left: 13vw;
+    // margin-left: 1rem;
+    margin-right: .5rem;
+    box-sizing: border-box;
+    // width: 17.7rem;
+    // width: 14rem;
+    width: 24rem;
+    height: 3rem;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+
+    // margin-bottom: 1rem;
+
+    border: 2px solid $color2;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.filter__barangay__dropdown::-webkit-scrollbar{
+    width: .30rem;
+    background-color: none;
+    border-radius: .5rem;
+}
+
+.filter__barangay__dropdown::-webkit-scrollbar-thumb{
+    background-color: $color4;
+    border-radius: .5rem;
+}
+
+.filter__barangay__dropdown::-webkit-scrollbar-thumb:hover{
+    background-color: none;
+}
+
+.filter__date__div {
+    position: absolute;
+    right: 2rem;
+}
+
+.filter__date__dropdown {
+    position: relative;
+    margin-top: 5.2rem;
+    // margin-left: 13vw;
+    margin-left: 1rem;
+    box-sizing: border-box;
+    // width: 15rem;
+    width: 10rem;
+    height: 3rem;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+
+    // margin-bottom: 1rem;
+
+    border: 2px solid $color2;
+    border-radius: 8px 8px 8px 8px;
+}
+
+// End of Common Symptoms page
+
+// Start of Datasets page
+.admin__datasets__div {
+    // height: 27rem;
+    height: 74vh;
+    width: 77%;
+    position: relative;
+    margin-left: 20rem;
+
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}
+
+.datasets__bar-chart__div {
+    // width: 49rem;
+    // height: 27rem;
+    width: 67vw;
+    // height: 57.2vh;
+
+    // float:right;
+    // margin-left: 3rem;
+    padding-top: 5rem;
+    padding-left: 3rem;
+    padding-right: 3.5rem;
+    
+    // border-left: .12rem solid #DFE0EB;
+}
+
+.num__datasets__div {
+    // height: 13.47rem;
+    height: 28.59vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-bottom: .12rem solid #DFE0EB;
+
+    p {
+        font-weight: 600;
+        font-size: 16px;
+        color: #9FA2B4;
+        
+        center {
+            color: #252733;
+            font-weight: 700;
+            font-size: 24px;
+        }
+    }
+}
+
+.migrate__datasets__div {
+    // height: 13.47rem;
+    height: 28.59vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        font-weight: 600;
+        font-size: 16px;
+        color: #9FA2B4;
+
+        center {
+            color: #252733;
+            font-weight: 700;
+            font-size: 24px;
+        }
+    }
+}
+
+.migrate__datasets__button {
+    // position: absolute;
+    // left: 32vw;
+    // bottom: 3rem;
+    // margin-top: 5rem;
+    color: $color1;
+    font-weight: 500;
+    font-size: 17px;
+    width: 15rem;
+    height: 2.3rem;
+    // height: 5rem;
+    border: none;
+
+    // float: right;
+    // margin-top: 2.1rem;
+    // margin-right: 2rem;
+
+    position: absolute;
+    // top: 3.7rem;
+    // left: 2rem;
+    top: .9rem;
+    left: 19rem;
+
+    // background: #363740;
+
+    background: linear-gradient(290deg, #00B2C0 -50%, #15171c 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+.disease-relation__title__div {
+    // height: 27rem;
+    height: 7rem;
+    width: 77%;
+    position: relative;
+    margin-left: 20rem;
+    // margin-top: 5rem;
+
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px 8px 0 0;
+
+    border-bottom: 0px;
+}
+
+.disease-relation__div {
+    // width: 49rem;
+    // height: 27rem;
+    width: 40vw;
+    height: 57.2vh;
+
+    float:right;
+    // margin-left: 3rem;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3.5rem;
+    
+    border-left: .12rem solid #DFE0EB;
+}
+
+.disease-relation__chart {
+    width: 25vw;
+}
+
+.disease__desc {
+    font-style: italic;
+    font-weight: 400;
+    padding-top: 3.75rem;
+    padding-left: 2.7rem;
+}
+
+.admin__disease-chart__div {
+    // height: 27rem;
+    height: 57.2vh;
+    width: 77%;
+    position: relative;
+    margin-left: 20rem;
+
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 0 0 8px 8px;
+}
+
+.disease-relation__dropdown {
+    box-sizing: border-box;
+    width: 31rem;
+    height: 5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-right: .35rem;
+    border: 2px solid $color2;
+    border-radius: 8px 8px 8px 8px;
+    // border-radius: 8px 0px 0px 8px;
+}
+
+.disease-relation__dropdown::-webkit-scrollbar{
+    width: .30rem;
+    background-color: none;
+    border-radius: .5rem;
+}
+
+.disease-relation__dropdown::-webkit-scrollbar-thumb{
+    background-color: gray;
+    border-radius: .5rem;
+}
+
+.disease-relation__dropdown::-webkit-scrollbar-thumb:hover{
+    background-color: none;
+}
+
+.header__title2 {
+    z-index: -20;
+    max-width: 500px;
+    margin-top: -4.8rem;
+}

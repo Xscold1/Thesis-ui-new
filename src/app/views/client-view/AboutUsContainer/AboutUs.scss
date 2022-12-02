@@ -1,0 +1,69 @@
+@import '../../../styles/1-helpers/variables';
+@import '../../../styles/1-helpers/functions';
+
+.profile-image {
+    border-radius: 50%;
+    width: 204px;
+    height: 203px;
+}
+
+.heading{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    margin-bottom: 75px;
+    
+    color: $color5;
+    
+}
+
+
+.aboutus_group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    width: fit-content;
+}
+
+.profile-name {
+    padding-top: 25px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 0px;
+    text-align: center;
+}
+
+.profiles {
+    width: 304px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.profile {
+    text-align: center;
+}
+
+.aboutus__container {
+    margin-top: 6.5rem;
+    width: 80%;
+}
+
+.caption {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    
+    color: $color5;
+}

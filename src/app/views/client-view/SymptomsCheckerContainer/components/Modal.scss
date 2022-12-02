@@ -1,0 +1,120 @@
+@import '../../../../styles/1-helpers/variables';
+@import '../../../../styles/1-helpers/functions';
+
+// Start of Modal1 CSS code
+
+.modalBackground {
+  /* background-color: #ffffff; */
+  /* opacity: 0.6; */
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+
+  /* Center horizontally */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.modalContainer {
+  // width: 1400px;
+  // height: 1400px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.modalContainer .title {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+
+  h1 {
+    font-size: 17px;
+  }
+}
+
+.no__margin {
+  margin-top: -10px !important;
+}
+
+.titleCloseBtn {
+  cursor: pointer;
+  font-size: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modalContainer .body {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
+
+  p {
+    font-size: 17px;
+  }
+}
+
+// End of Modal1 CSS code
+
+// Start of Large Disclaimer Modal CSS code
+
+.disclaimerModalContainer {
+  position: absolute;
+  width: 44rem;
+  height: 34rem;
+  border-radius: 7px;
+  // background-color: white;
+  background-color: #15171c;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+
+  /* Center horizontally and vertically */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+
+  h1 {
+    color: $color1;
+    padding-top: .5rem;
+  }
+
+  p {
+    padding: 0rem 2rem 0 2rem;
+    text-align: justify;
+    color: $color1;
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .white {
+      color: $color1;
+  }
+}
+
+.confirm__button {
+  margin-top: 1rem;
+  color: $color1;
+  font-weight: 700;
+  font-size: 20px;
+  width: 170px;
+  height: 40px;
+  border: none;
+
+  // background: linear-gradient(270deg, $color2 0%, $color3 100%);
+  background: $color3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+// End of Large Disclaimer Modal CSS code

@@ -1,0 +1,505 @@
+@import '../../../styles/1-helpers/variables';
+
+.landing__page__container {
+    padding-bottom: 88px;
+}
+
+// Hero Section 
+.hero__h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    // font-size: 56px;
+    font-size: 47px;
+    line-height: 75px;
+    color: $color5;
+}
+
+.hero_content {
+    width: 910px;
+}
+
+
+.hero_subheadline {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 45px;
+}
+
+.vision {
+    color: $color3;
+    font-weight: 500;
+}
+
+// How it works section
+.how__it__works{
+    padding-top: 5rem;
+    // background-color: $color1;
+}
+
+.section__title{
+    font-weight: 600;
+    color: $color3;
+    padding-bottom: 1.5rem;
+    font-family: 'Montserrat';
+    font-size: 32px;
+}
+
+.hiw__step{
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 22px;
+    color: $color5;
+}
+
+.hiw__learnmore {
+    // text-decoration: none;
+    font-weight: 700;
+    color: $color4;
+}
+
+.hiw__learnmore:hover {
+    // text-decoration: none;
+    color: $color3;
+}
+
+// Our Mission section
+#mission{
+    height: 790px;
+}
+
+.mission__text {
+    font-weight: 600;
+    font-family: 'Montserrat';
+    font-size: 32px;
+}
+
+.mission__bg{
+    background: linear-gradient(180deg, #D0EEED 0%, rgba(208, 238, 237, 0) 100%);
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20em;
+    height: 518px;
+}
+
+.mission__icon{
+    size: 1rem;
+}
+
+.mission_specific__height{
+    height: 220px;
+}
+
+// Bottom Section 
+
+.pre__footer {
+    // display: flex;
+    // width: 100%;
+    // height: 270px;
+    // background: #D1EEEE;
+
+    width: 100%;
+
+    background: #D1EEEE;
+    height: 230px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.pre-footer__item {
+    margin-left: 4px;
+    text-decoration: none;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    color: $color5;
+}
+
+.pre-footer__item:hover {
+    color: $color4;
+}
+
+.pre-footer__item:focus {
+    color: $color5;
+    text-decoration: none;
+}
+
+.contact__item:hover {
+    color: $color5;
+}
+
+.socmed__div {
+    display:grid;
+    text-align: left;
+    line-height: 2rem;
+}
+
+.footer__logo {
+    width: 100px;
+    margin-right: 4rem;
+}
+
+.socmed__icon {
+    font-size: 25px;
+    font-weight: 500;
+    padding-right: 5px;
+}
+
+.contact__div {
+    margin-top: 0.1rem;
+    margin-left: 7rem;
+    height: 95px;
+    display:grid;
+    text-align: left;
+}
+
+.follow__contact {
+    font-weight: 400;
+    font-size: 20px;
+    color: $color5;
+    margin-bottom: 5px;
+}
+
+.pre-footer__item {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.newsletter {
+    display:grid;
+    justify-content: center;
+}
+
+.newsletter__header {
+    justify-self: left;
+    padding-left: 1rem;
+    font-weight: 300;
+    font-size: 20px;
+    color: $color5;
+}
+
+.newsletter__input {
+    margin-top: .2rem;
+    padding: 10px 10px 10px 22px;
+
+    width: 428.34px;
+    height: 45px;
+    left: 1303.66px;
+    top: 175px;
+
+    background: $color1;
+    border: 1px solid $color2;
+    border-radius: 25px;
+}
+
+.newsletter__input::-webkit-input-placeholder {
+    font-weight: 300 !important;
+    font-size: 17px !important;
+    color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.newsletter__input:focus {
+    outline: none;
+}
+
+.custom-search {
+    position: relative;
+}
+
+.newsletter__button {
+    position: absolute;
+    right: 0rem;
+    top: 4px;
+    border: solid 1px $color4;
+    background: $color4;
+    border-radius: 99rem;
+    width: 46.99px;
+    height: 44px;
+}
+
+
+/* Design rework [AC] */
+ 
+.circle {
+    position: absolute;
+    width: 470px;
+    height: 470px;
+    left: -193px;
+    top: -108px;
+    border-radius: 50%;
+    background: linear-gradient(155.47deg, rgba(231, 141, 109, 0.6) 15.67%, rgba(231, 141, 109, 0) 94.39%);
+}
+
+.nav__center__width {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.space__between {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.multiline {
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.6);
+    width: 97px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.items__center {
+    align-items: center;
+    font-size: 24px;
+    width: 196px;
+    line-height: 29px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.no__decor a {
+    text-decoration: none;
+}
+
+.login__register a{
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.font_size {
+    font-size: 16px;
+}
+
+.btn{
+    font-size: 1.2rem;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+.btn_2 {
+    color: $color1;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.landing__button {
+    width: 224px;
+    height: 49px;
+    // border-radius: 25px;
+    border-radius: 10px;
+    position: relative;
+    border: 2px solid $color4;
+    /* For presentation */
+    margin-left: 30px;
+    margin-top: 30px;
+    left: -2%;
+  }
+
+.line__button {
+    background: $color4 none repeat scroll 0 0;
+    border-radius: 25px;
+    width: 224px;
+    height: 49px;
+    left: -12px;
+    position: absolute;
+    top: -10px;
+}
+
+.learnmore__button{
+    position: relative;
+    bottom: .8rem;
+    right: .8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 224px;
+    height: 49px;
+
+    /* Buttons */
+    // background: linear-gradient(270deg, $color4 0%, $color6 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    // border-radius: 25px;
+    background: linear-gradient(270deg, rgba(231, 141, 109, 0.8) 0%, rgba(223, 116, 78, 0.8) 100%);
+    border-radius: 10px;
+
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: $color1
+}
+
+.landing__button:hover {
+    border: 1px solid #fff;
+
+    .learnmore__button{
+        background: linear-gradient(270deg, $color1 0%, $color1 100%);
+        color: $color4;   
+    }
+}
+
+.active {
+    font-weight: 700;   
+    color: #00B2C0;
+}
+
+.img2 {
+    width: 322px;
+    height: 299px;
+  
+}
+
+.mission_div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    gap: 60px;
+    width: 80%;
+    margin: auto;
+}
+
+.mission_text_2 {
+    text-align: justify;
+    width: 1400px;
+    height: 195px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    overflow: hidden;
+
+    p {
+        font-size: 10px;
+    }
+}
+
+.mission_text_3 {
+    text-align: justify;
+    width: 663px;
+    height: 195px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    overflow: hidden;
+
+    p {
+        font-size: 10px;
+    }
+}
+
+.mission__left__margin{
+    margin-left: .07rem;
+}
+
+.card__justify{
+    padding-left: .5rem;
+    padding-right: .5rem;
+    text-align: justify;
+}
+
+.card__justify__2{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: justify;
+}
+
+.card_body_height {
+    align-items: center;
+    padding: 25px 25px;
+    gap: 20px;
+    height: 380px;
+    background: $color1;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+
+}
+
+@media (min-width:1200px) {
+    .card_body_height {
+        align-items: center;
+        padding: 25px 25px;
+        gap: 20px;
+        height: 415px;
+        background: $color1;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        overflow: hidden;
+    
+    }
+  }
+.h3_font {
+    font-family: 'Montserrat';
+}
+
+  @media (max-width:988px) {
+    .footer-clean {
+      margin-top: 25em;
+      text-align: center;
+    }
+  }
+  @media (max-width:769px) {
+    .responsive {
+      margin-bottom: 50em;
+      text-align: center;
+    }
+  }
+  @media (max-width:823px) {
+    .custom-search {
+    width: 10%;
+      text-align: center;
+    }
+  }
+ 
+  @media (max-width:988px) {
+    .mission_div {
+    display: flex;
+    flex-direction: column;
+    }
+    .mission_text_2 {
+        width: 80%;
+        font-size: 16px;
+    }
+    .mission__bg {
+        height: 45em;
+    }
+    .hero__h2 {
+        font-size: 32px;
+        position: absolute;
+        top: -30px;
+        display: none;
+    }
+    .button {
+        display: none;
+    }
+
+    .cta {
+        height: 5em;
+
+        .hero_subheadline {
+            display: none;
+        }
+}
+}
+  
+// .space-between li{
+//     display: inline;
+// }
+
+// .space-between a{
+//     display: inline;
+//     padding: .3em;
+// }

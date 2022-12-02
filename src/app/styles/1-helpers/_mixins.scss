@@ -1,0 +1,30 @@
+//MEDIA QUERIES
+@mixin desktop{
+    @media (max-width:#{$breakpoint-desktop}){
+        @content;
+    }
+}
+
+@mixin laptop{
+    @media (max-width:#{$breakpoint-laptop}){
+        @content;
+    }
+}
+
+@mixin mini-laptop{
+    @media (max-width:#{$breakpoint-mini-laptop}){
+        @content;
+    }
+}
+
+@mixin tablet{
+    @media (max-width:#{$breakpoint-tablet}){
+        @content;
+    }
+}
+
+@mixin mobile{
+    @media (max-width:#{$breakpoint-mobile}){
+        @content;
+    }
+}

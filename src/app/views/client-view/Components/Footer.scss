@@ -1,0 +1,75 @@
+@import '../../../styles/1-helpers/variables';
+
+.bg_footer {
+    position: absolute; 
+    bottom: 0; 
+    width: 100%;
+
+    background-color: $color2;
+    height: 88px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.footer__item {
+    text-decoration: none;
+    font-weight: 400;
+    color: $color5;
+}
+
+.about__footer {
+    margin-right: 2.5rem;
+}
+
+.footer__item:hover {
+    color: $color5;
+}
+
+.footer__item:focus {
+    color: $color5;
+    text-decoration: none;
+}
+
+// .space__between{
+//     margin-left: 4rem;
+// }
+
+.all-rights__reserved {
+    font-weight: 400;
+    font-size: 16px;
+
+    position: relative;
+    margin-left: -5.9rem;
+    pointer-events: none;
+    color: $color5;
+    // position: absolute;
+}
+
+.div__contact {
+    display: flex;
+    align-items: center;
+}
+
+.footer__icon {
+    font-size: 30px;
+    font-weight: 500;
+    padding-right: 5px;
+}
+
+.footer_alignment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.bg_footer a{
+    text-decoration: none;
+}

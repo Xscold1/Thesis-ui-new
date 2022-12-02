@@ -1,0 +1,30 @@
+@import '../../../styles/1-helpers/variables';
+@import '../../../styles/1-helpers/functions';
+
+.admin__login__div {
+    background-color: #363740;
+    height: 100vh;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.admin__form__div {
+    background-color: #15171c;
+    border-radius: 1.5rem;
+    box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.25);
+    
+    // width: 59vw;
+    width: 55rem;
+    height: 35rem;
+    display: grid;
+    align-content: center;
+}
+
+.admin-login__input {
+    border: none;
+    outline: none;
+    text-indent: 2rem;
+    // width: 45vw !important;
+    width: 37rem !important;
+}

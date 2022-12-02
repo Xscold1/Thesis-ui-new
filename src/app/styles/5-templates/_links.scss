@@ -1,0 +1,33 @@
+.links{
+    position: fixed;
+    top: 90%;
+    transform: translateY(-90%);
+    height: 5%;
+    right: 0;
+    width:45px;
+    display:grid;
+    height: auto;
+    grid-template-columns: 1fr;
+    text-align: center;
+    background-color: rgb(247, 247, 247);
+    border-radius: 5px 0px 0px 5px;
+    @include mini-laptop{
+        width:35px;
+    }
+
+    a{
+        i{
+            padding: .2em 0;
+            font-size: 1.5em;
+            @include mini-laptop{
+                font-size: 1em;
+            }
+       
+            &:hover{
+                filter:grayscale(50%);
+           
+            }
+        }
+    }
+
+}

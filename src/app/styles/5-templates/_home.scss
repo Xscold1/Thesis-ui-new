@@ -1,0 +1,46 @@
+.home{
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height:100vh;
+
+    .home__information{
+        width:100%;
+        position: relative;
+        top:50%;
+        transform: translateY(-50%);
+        @media (max-height:300px){
+            margin: 2em auto;
+        }
+
+  
+        .home__heading{
+            letter-spacing: .2em;
+            font-size: 3.5em;
+            @include laptop{
+                font-size: 2.5em;
+            }
+            @include mini-laptop{
+                font-size: 2.5em;
+            }
+            @include tablet{
+              font-size: 1.5em;
+            }
+            @include mobile{
+             font-size: 1.1em;
+            }  
+        }
+        .home__sub-heading{
+            letter-spacing: .5em;
+            font-size: 1em;
+            @include tablet{
+                font-size: .7em;
+              }
+              @include mobile{
+                font-size: .6em;
+               }  
+        }
+    }
+   
+}

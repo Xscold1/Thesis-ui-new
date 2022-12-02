@@ -1,0 +1,16 @@
+@import '../../../styles/1-helpers/variables';
+@import '../../../styles/1-helpers/functions';
+
+.admin__hospital__content {
+    position: relative;
+    margin-left: 20rem;
+    // height: 57rem;
+    height: 77rem;
+    // max-height: 80vh;
+    width: 77%;
+    // border: 2px solid black;
+
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}

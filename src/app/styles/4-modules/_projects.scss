@@ -1,0 +1,102 @@
+.projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2em;
+  justify-content: center;
+  position: relative;
+  width: 50%;
+  margin: 2em auto;
+  @include laptop {
+    width: 70%;
+  }
+  @include mini-laptop {
+    width: 90%;
+  }
+  @include mini-laptop {
+    margin: 8em auto;
+  }
+
+  .projects__item {
+    box-shadow: 0 0 2px $color4, 0 0 5px $color4, 0 0 5px $color4;
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    opacity: 0.7;
+    transition: 0.5s;
+    &:hover {
+      opacity: 1;
+    }
+
+    .projects__image {
+      width: 100%;
+      display: block;
+      margin: auto;
+    }
+
+    .projects__information {
+      padding: 0.5em 0.7em;
+      pointer-events: none;
+      .projects__title {
+        color: $color1;
+        font-size: 1.8em;
+        margin: 0;
+
+        @include tablet {
+          font-size: 1.5em;
+        }
+        @include mobile {
+          font-size: 1.2em;
+        }
+      }
+      .projects__text {
+        color: white;
+        font-weight: lighter;
+        font-size: 0.9em;
+        letter-spacing: 0.1em;
+
+        text-transform: lowercase;
+        @include tablet {
+          font-size: 0.7em;
+        }
+      }
+      .projects__used-skills {
+        font-size: 0.8em;
+        margin: 0.7em 0;
+        color: white;
+        @include mobile {
+          font-size: 0.7em;
+        }
+      }
+    }
+
+    .projects__buttons {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 0.2em;
+
+      .projects__button {
+        text-align: left;
+        text-transform: lowercase;
+        font-size: 1em;
+        padding: 0.5em;
+        border: none;
+        text-decoration: none;
+        transition: 0.5s;
+        background-color: transparent;
+        color: white;
+        letter-spacing: 0.2em;
+
+        cursor: pointer;
+        @include tablet {
+          font-size: 0.8em;
+        }
+        &:hover {
+          transform: translate(0px, -4px);
+          color: cyan;
+        }
+      }
+    }
+  }
+}

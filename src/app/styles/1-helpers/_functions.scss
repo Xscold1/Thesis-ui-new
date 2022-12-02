@@ -1,0 +1,14 @@
+$fontVariant:(
+    "font1":'Oswald ExtraLight',
+    "font2":'Oswald Light',
+    "font3":'Oswald',
+    "font4":'Oswald Medium',
+    "font5":'Oswald SemiBold',
+    "font6":'Concert One',
+    "font7":'Roboto',
+    "font8":'Montserrat'
+);
+
+@function font($fontName){
+    @return map-get($fontVariant,$fontName);
+}

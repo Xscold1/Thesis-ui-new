@@ -1,0 +1,104 @@
+.contact{
+    display: grid;
+    align-content: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    @include mini-laptop{
+        margin: 3em auto;
+    }
+    @media (max-height:400px){
+        margin: 7em auto;
+    }
+
+    .contact-form{
+      
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr; 
+        width:60%;
+        margin: auto;
+        background-color: rgba(255, 255, 255,1);
+        padding: 1em 2em;
+        border-radius: 5px;
+        max-width: 500px;
+        @include tablet{
+            width:90%;
+         }
+     .contact-form__heading{
+         font-size: 1.5em;
+         color:black;
+         margin:.5em 0;
+         font-weight: bold;
+         
+     }
+            input[type="text"]{
+                padding: .8em;
+                cursor: pointer;
+                border-radius: 10px;
+                border: 1px solid transparent;
+                box-shadow: 0 0 10px rgb(235, 235, 235), 0 0 5px rgb(238, 236, 236), 0 0 5px rgb(226, 225, 225);
+                width: 100%;
+                margin: .5em auto;
+                @include mobile{
+                    font-size: .7em;
+                 }  
+                &:hover{
+                    border: 1px solid $color4;
+                }
+                &:focus{
+                    cursor: text;
+                }
+            }
+            input[type="submit"]{
+                padding: .7em .5em;
+                width:130px;
+                border-radius: 50px;
+                border: none;
+                background-color: $color3;
+                color:rgb(245, 241, 241);
+                font-size: .8em;
+                text-transform: uppercase;
+                margin:1em auto;
+                @include mobile{
+                   font-size: .7em;
+                 }  
+
+                &:hover{
+                    color:black;
+                    background-color: $color4;
+                }
+            }
+            input{
+                font-size: .8em;
+                margin:1em;
+            }
+            textarea{
+                cursor: pointer;
+                width: 100%;
+                font-size: .8em;
+                margin: 1em auto;
+                height: 100px;
+                padding: .8em;
+                resize: none;
+                border-radius: 10px;
+                border: 1px solid transparent;
+                box-shadow: 0 0 10px rgb(235, 235, 235), 0 0 5px rgb(238, 236, 236), 0 0 5px rgb(226, 225, 225);
+                @include mobile{
+                    font-size: .7em;
+                 }  
+                &:hover{
+                    border: 1px solid $color4;
+                }
+                &:focus{
+                    cursor: text;
+                }
+            }
+    }
+}
+
+::placeholder{
+    font-weight: bold;
+    font-size: .9em;
+    color: rgb(182, 182, 182);
+}

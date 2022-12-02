@@ -1,0 +1,32 @@
+@import '../../../styles/1-helpers/variables';
+
+.symptoms__checker__logs__width {
+    width: 35rem;
+}
+
+.logs__hidden__scroll {
+    max-height: 100vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-top: 1.5rem;
+
+    .table-bordered {
+        margin-top: 0 !important;
+        box-shadow: 0px 2px 2px white !important;
+    }
+
+    .sortable {
+        color: #15171c !important;
+        // text-align: center !important;
+    }
+}
+
+.logs__hidden__scroll::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.logs__closed__sidebar {
+    // opacity: 0;
+    right: -37rem;
+    transition-duration: .4s;
+}

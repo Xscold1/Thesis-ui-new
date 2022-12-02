@@ -1,0 +1,90 @@
+@import '../../../styles/1-helpers/variables';
+@import '../../../styles/1-helpers/functions';
+
+.add__affiliate__span {
+    cursor: pointer;
+    margin-left: 1rem;
+    // font-weight: 400;
+
+    color: $color3;
+    font-weight: 600;
+}
+
+.add__affiliate__span:hover {
+    color: $color4;
+    font-weight: 600;
+}
+
+.add__affiliate__button {
+    position: absolute;
+    left: 32vw;
+    bottom: 2rem;
+    margin-top: 5rem;
+    color: $color1;
+    font-weight: 700;
+    font-size: 24px;
+    width: 210px;
+    height: 49px;
+    border: none;
+
+    background: linear-gradient(270deg, $color2 0%, $color3 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+// .admin__dropdown__field-half {
+//     color: $color5 !important;
+//     font-weight: 500 !important;
+//     width: 350px !important;
+//     text-indent: 1.5rem;
+//     border: none;
+// }
+
+.admin__dropdown__field {
+    // color: rgba(0, 0, 0, 0.35);
+    box-sizing: border-box;
+    background: #c8f4fc;
+    font-weight: 400;
+    // text-indent: 1rem;
+    text-align: center;
+
+    border: 2px solid #c8f4fc;
+    border-radius: 20px;
+}
+
+.half {
+    width: 340px;
+    height: 52px;
+}
+
+.whole {
+    width: 700px;
+    height: 52px;
+}
+
+.open {
+    margin-right: 20px;
+}
+
+.black__placeholder::placeholder {
+    color: $color5 !important;
+    font-size: 15.9px !important;
+    font-weight: 400 !important;
+    text-align: center;
+    text-indent: 0 !important;
+}
+
+.admin__dropdown__field::-webkit-scrollbar{
+    width: .7rem;
+    background-color: none;
+    border-radius: .5rem;
+}
+
+.admin__dropdown__field::-webkit-scrollbar-thumb{
+    background-color: $color4;
+    border-radius: .5rem;
+}
+
+.admin__dropdown__field::-webkit-scrollbar-thumb:hover{
+    background-color: $color3;
+}
