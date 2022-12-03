@@ -9,10 +9,10 @@ import 'popper.js';
 
 // redux
 import { Provider } from "react-redux";
-import { store } from "../src/app/stores/store";
+import { store } from "./src/app/stores/store";
 
 // routes
-import AppRoutes from "../src/app/routes/router";
+import AppRoutes from "./src/app/routes/router";
 
 //styling
 import '../src/app/styles/main.scss';
