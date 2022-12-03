@@ -80,7 +80,7 @@ function CommonSymptoms() {
     // const [fetchedSymptoms, setFetchedSymptoms] = useState({
     //     labels: [ 'Difficulty Breathing', 'Cough', 'Headache', 'Chills'],
     //     data: [50, 20, 5, 1],
-    //     total: 100,
+    //     total: 1001,
     // });
 
     const [fetchedSymptoms, setFetchedSymptoms] = useState({})
